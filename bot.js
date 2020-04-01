@@ -50,6 +50,13 @@ client.on('message', msg => {  //WESO#0001
   });
 
 
+   client.on('message', msg => {  //WESO#0001
+    if (msg.content === 'السلام عليكم') {  //WESO#0001
+      msg.reply('** :wink: وعليكم السلام  :sparkling_heart:**');  //WESO#0001
+    }
+  });
+
+
 
 
 
