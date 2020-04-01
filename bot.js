@@ -29,8 +29,8 @@ client.on('message', msg => {  //WESO#0001
   
 
   client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'احبك') {  //WESO#0001
-      msg.reply('**حبك برص يا سافل**');  //WESO#0001
+    if (msg.content === 'خرا') {  //WESO#0001
+      msg.reply('**لا تعيدها بليز**');  //WESO#0001
     }
   });
 
@@ -41,6 +41,14 @@ client.on('message', msg => {  //WESO#0001
       msg.reply('**هلا بيك :heart: **');  //WESO#0001
     }
   });
+
+
+   client.on('message', msg => {  //WESO#0001
+    if (msg.content === 'ياكلب') {  //WESO#0001
+      msg.reply('**لاتكررها **');  //WESO#0001
+    }
+  });
+
 
 
 
